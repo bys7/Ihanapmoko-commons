@@ -14,11 +14,12 @@ public class Advertisement {
 	private int location_id;
 	private String budget;
 	private String password;
+	private String description;
 	private String active_status;
-	private int picture_id;
-	private int bidding_id;
+	private String picture_id;
 	private int views;
 	private String condition;
+	
 	
 	public int getId() {
 		return id;
@@ -86,18 +87,6 @@ public class Advertisement {
 	public void setActive_status(String active_status) {
 		this.active_status = active_status;
 	}
-	public int getPicture_id() {
-		return picture_id;
-	}
-	public void setPicture_id(int picture_id) {
-		this.picture_id = picture_id;
-	}
-	public int getBidding_id() {
-		return bidding_id;
-	}
-	public void setBidding_id(int bidding_id) {
-		this.bidding_id = bidding_id;
-	}
 	public int getViews() {
 		return views;
 	}
@@ -109,6 +98,18 @@ public class Advertisement {
 	}
 	public void setCondition(String condition) {
 		this.condition = condition;
+	}
+	public String getDescription() {
+		return description;
+	}
+	public void setDescription(String description) {
+		this.description = description;
+	}
+	public String getPicture_id() {
+		return picture_id;
+	}
+	public void setPicture_id(String picture_id) {
+		this.picture_id = picture_id;
 	}
 	
 }
