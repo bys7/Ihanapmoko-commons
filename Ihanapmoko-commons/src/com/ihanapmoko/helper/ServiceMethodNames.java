@@ -19,4 +19,7 @@ public class ServiceMethodNames {
 	/*LOCATION*/
 	public static final String FETCH_ALL_LOCATION			=		"/location/fetchAllLocation";
 	
+	/*FILTER LOOKUP*/
+	public static final String FETCH_ALL_FILTERLOOKUP		=		"/filterlookup/fetchFilterLookup";
+	
 }

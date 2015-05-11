@@ -18,7 +18,7 @@ public class Advertisement {
 	private String active_status;
 	private String picture_id;
 	private int views;
-	private String condition;
+	private String item_condition;
 	
 	
 	public int getId() {
@@ -93,12 +93,6 @@ public class Advertisement {
 	public void setViews(int views) {
 		this.views = views;
 	}
-	public String getCondition() {
-		return condition;
-	}
-	public void setCondition(String condition) {
-		this.condition = condition;
-	}
 	public String getDescription() {
 		return description;
 	}
@@ -110,6 +104,12 @@ public class Advertisement {
 	}
 	public void setPicture_id(String picture_id) {
 		this.picture_id = picture_id;
+	}
+	public String getItem_condition() {
+		return item_condition;
+	}
+	public void setItem_condition(String item_condition) {
+		this.item_condition = item_condition;
 	}
 	
 }
