@@ -16,7 +16,7 @@ public class Advertisement {
 	private String password;
 	private String description;
 	private String active_status;
-	private String picture_id;
+	private int picture_id;
 	private int views;
 	private String item_condition;
 	
@@ -99,17 +99,17 @@ public class Advertisement {
 	public void setDescription(String description) {
 		this.description = description;
 	}
-	public String getPicture_id() {
-		return picture_id;
-	}
-	public void setPicture_id(String picture_id) {
-		this.picture_id = picture_id;
-	}
 	public String getItem_condition() {
 		return item_condition;
 	}
 	public void setItem_condition(String item_condition) {
 		this.item_condition = item_condition;
+	}
+	public int getPicture_id() {
+		return picture_id;
+	}
+	public void setPicture_id(int picture_id) {
+		this.picture_id = picture_id;
 	}
 	
 }
