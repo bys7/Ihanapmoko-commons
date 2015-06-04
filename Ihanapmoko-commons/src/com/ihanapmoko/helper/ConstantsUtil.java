@@ -14,4 +14,12 @@ public class ConstantsUtil {
 	public static final String ADVERTISEMENT_DEACTIVE	= "0";
 	public static final String ADVERTISEMENT_ACTIVE		= "1";
 	
+	//ROLES
+	public static final int ADMIN 		                = 1;
+	public static final int REGULAR_USER 			    = 2;
+	
+	//ACTIVATED OR DEACTIVATED
+	public static final String USER_ACTIVATED 		    = "1";
+	public static final String USER_DEACTIVATED 		= "0";
+	
 }
