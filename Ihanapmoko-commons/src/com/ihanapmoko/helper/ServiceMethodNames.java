@@ -4,7 +4,9 @@ public class ServiceMethodNames {
 
 	/*USER*/
 	public static final String GET_EMAIL_AND_PASSWORD		=		"/user/getEmailAndPassword";
-	
+	public static final String CREATE_USER		            =		"/user/create";
+	public static final String GET_USER_BY_ID		        =		"/user/getById";
+	public static final String UPDATE_USER		            =		"/user/update";
 	
 	/*ADVERTISEMENT*/
 	public static final String SEARCH_ADVERTISEMENT					=		"/advertisement/searchAdvertisement";
