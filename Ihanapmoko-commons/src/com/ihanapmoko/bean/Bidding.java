@@ -6,11 +6,10 @@ public class Bidding {
 
 	private int id;
 	private int advertisement_id;
-	private int user_id;
+	private int user_id;	
 	private int picture_id;
-	private String comment;
-	private Date date_posted;
-	
+	private String message;	
+	private Date date_posted;	
 	
 	public Date getDate_posted() {
 		return date_posted;
@@ -29,6 +28,12 @@ public class Bidding {
 	}
 	public void setAdvertisement_id(int advertisement_id) {
 		this.advertisement_id = advertisement_id;
+	}	
+	public String getMessage() {
+		return message;
+	}
+	public void setMessage(String message) {
+		this.message = message;
 	}
 	public int getUser_id() {
 		return user_id;
@@ -41,12 +46,6 @@ public class Bidding {
 	}
 	public void setPicture_id(int picture_id) {
 		this.picture_id = picture_id;
-	}
-	public String getComment() {
-		return comment;
-	}
-	public void setComment(String comment) {
-		this.comment = comment;
 	}
 	
 }
